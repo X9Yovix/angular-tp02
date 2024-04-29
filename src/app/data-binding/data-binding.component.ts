@@ -9,4 +9,7 @@ import { Component } from '@angular/core';
 })
 export class DataBindingComponent {
   message: string = 'Hello World!';
+  changeMessage() {
+    this.message = 'New Message!';
+  }
 }
