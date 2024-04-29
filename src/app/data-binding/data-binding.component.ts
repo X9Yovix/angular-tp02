@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './data-binding.component.css'
 })
 export class DataBindingComponent {
-
+  message: string = 'Hello World!';
 }
